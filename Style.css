@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    background-color: #5659C9;
+    width: 100%;
+    height: 260px;
+    float: right;
+}
+
+header img {
+    float: left;
+    margin-top: 6.2px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    float: right;
+}
+
+li {
+    margin-right: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    height: 45px;
+    line-height: 50px;
+    float: right;
+    justify-content: end;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column gap 60px 30px;
+    padding: 16px;
+    height: 1200px;
+}
+
+body {
+    background-color: #444444;
+    width: 100%;
+    height: 900px;
+}
+
+
+.bloco-1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-left: 450px;
+    margin-top: 400px;
+    text-align: initial;
+
+}
+
+.bloco-2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-top: 400px;
+    text-align: initial;
+
+}
+
+.bloco-3 {
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-left: -150px;
+    margin-top: 900px;
+    text-align: initial;
+}
+
+.bloco-4 {
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-left: -700px;
+    margin-top: 900px;
+    text-align: initial;
+}
+
+footer {
+    background-color: #5659C9;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    height: 250px;
+    width: 100%;
+}
+
+.roda {
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+
+.roda1 {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    margin-left: -800px;
+    flex-direction: row;
+    margin-top: 2px;
+}
